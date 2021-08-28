@@ -37,11 +37,11 @@ li a:hover{
     color: cornsilk;
     display: block;
     text-decoration: none;
-    background-color: white;
+    background-color: crimson;
 }
 .titulo{
     padding: 30px;
-    color: crimson;
+    color: white;
     text-align: center;
     padding: 20px;
 }
