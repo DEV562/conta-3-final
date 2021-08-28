@@ -1,0 +1,68 @@
+<html>
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-16">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Planos Qualicorp</title>
+        <link rel="stylesheet" type="text/css" href="css/stylesheet.css" media="screen" />
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/novacasa.png" width="80px">
+            </div>
+            <ul class="menu">
+                <li> <a href="index.html">Qualicorp</a></li>
+                <li> <a href="cotacao.html">Solicitar cotação</a></li>
+            </ul>
+ 
+         </header>
+         <main>
+
+             <div class="intro">
+                 <h1>Solicitar cotação</h1>
+                 <br>
+                 <p>Preencha suas informações de contato e preferências.<br> Em breve um dos nossos corretores irá entrar em contato.</p>
+            </div>
+             <div class="form">
+             <section formulario>
+                <form action="https://api.staticforms.xyz/submit" method="POST">
+                  <input type="hidden" name="accessKey" value="1c1740a1-327a-4961-aa6e-a8f09d0b1389">
+                  <input type="hidden" name="redirectTo" value="site-css/obrigado.html">
+            
+                  <fieldset class="grupo">
+                     <div class="campo">
+                        <label>Nome Completo</label>
+                        <input type="text" name="name" id="nome">
+                      </div>
+                   </fieldset>
+            
+                      <div class="campo">
+                           <label for="telefone">Telefone</label>
+                           <input type="text" name="phone" id="nome">
+                      </div>
+                       <div class="campo">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                       </div>
+                   
+                        <div class="campo">
+                          <br>
+                          <label> Observação:</label>
+                          <textarea name="message" rows="3" style="width: 26em;" id="obs"></textarea>
+                        </div>
+                        <div class="submit">
+                            <button><a href="#">solicitar cotação</a></button>
+                           </div>
+                        </div>
+            </form>
+            </section>
+
+        </main>
+        <footer>
+            <p>copyright - 2021 - todos os direitos reservados a Nova Casa do Consultor</p>
+         </footer>
+     </body>
+</html>
