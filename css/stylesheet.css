@@ -122,65 +122,44 @@ footer{
     margin: 0 auto;
     width: 90%;
 }
-fieldset{
-    border: 0px;
+.box{
+  
+   text-align: center;
 }
-input, select, textarea{
-    padding: 5px;
-    max-width: 300px;
-    margin-left: 60px;
-    border-radius: 10px;
-}
-.campo{
-    
-    margin: 0 auto;
-    align-items: center;
-    display: grid;
-    width: 90%;
-    margin-bottom: 1em;
-}
-.campo label{
-    margin: 0 auto;
-    width: 90%;
-    color: white;
+.box input[type="text"], .box input[Type="textbox"]{
+    margin-left: 20%;
+    text-align: center;
+    border: 0;
+    background: none;
     display: block;
-}
-fieldset .campo .grupo{
-    display: flex;
-    margin: 0 auto;
-    padding: 30px;
-    width: 90%;
-    float: left;
-    margin-right: 1em;
-}
-.campo select option{
-    padding-right: 1em;
-}
-label{
+    margin: 10px auto;
+    border: 2px solid white;
+    padding: 14px, 10px;
+    width: 200px;
+    outline: none;
     color: white;
+    border-radius: 24px;
+    transition: 0,25s;
 }
-.submit{
-    margin-left: 100px;
-    padding-bottom: 30px;
+.box input[type="text"] :focus, .box input[Type="textbox"]:focus{
+    border-color: turquoise;
+}
+.solicitar{
+    border: 0;
+    background: none;
     display: block;
+    margin: 10px auto;
+    text-align: center;
+    border: 2px solid white;
+    padding: 10px;
+    width: 150px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0,25s;
+    cursor: pointer;
 
 }
-.submit a{
-    font-size: 18px;
+.box p{
     color: white;
-    padding: 10px 10px 10px 10px;
-    border-radius: 10px;
-    display: block;
-}
-.submit a:hover{
-    display: block;
-    border: 20px;
-    background-color: crimson;
-    border-radius: 10px;
-}
-.submit div{
-    margin: 20px;
-}
-.form div{
-    padding: 5px;
 }
