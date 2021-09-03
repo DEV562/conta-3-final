@@ -19,48 +19,24 @@
             </ul>
  
          </header>
-         <main>
 
              <div class="intro">
                  <h1>Solicitar cotação</h1>
                  <br>
                  <p>Preencha suas informações de contato e preferências.<br> Em breve um dos nossos corretores irá entrar em contato.</p>
             </div>
-             <div class="form">
-             <section formulario>
-                <form action="https://api.staticforms.xyz/submit" method="POST">
-                  <input type="hidden" name="accessKey" value="1c1740a1-327a-4961-aa6e-a8f09d0b1389">
-                  <input type="hidden" name="redirectTo" value="qualicotacoes.netlify.app/obrigado">
-            
-                  <fieldset class="grupo">
-                     <div class="campo">
-                        <label>Nome Completo</label>
-                        <input type="text" name="name" id="nome">
-                      </div>
-                   </fieldset>
-            
-                      <div class="campo">
-                           <label for="telefone">Telefone</label>
-                           <input type="text" name="phone" id="nome">
-                      </div>
-                       <div class="campo">
-                        <label for="email">Email</label>
-                        <input type="email" name="email" id="email">
-                       </div>
-                   
-                        <div class="campo">
-                          <br>
-                          <label> Observação:</label>
-                          <textarea name="message" rows="3" style="width: 26em;" id="obs"></textarea>
-                        </div>
-                        <div class="submit">
-                           <button type="submit">solicitar cotação</button>
-                           </div>
-                        </div>
-            </form>
-            </section>
-
-        </main>
+            <div class="box">
+             <form action="https://api.staticforms.xyz/submit" method="POST">
+             <input type="hidden" name="accessKey" value="1c1740a1-327a-4961-aa6e-a8f09d0b1389">
+             <p>Nome completo:</p><input type="textbox" name="$nome"></imput>
+             <p>Telefone:</p><input type="textbox" name="$telefone"></imput>
+             <p>Email:</p><input type="textbox" name="$email"></imput>
+             <p>Quantas vidas?</p><input type="textbox" name="$vidas"></imput>
+             <p>observação:</p><input type="textbox" name="$obs"></imput>
+             <input type="hidden" name="redirectTo" value="https://qualicotacoes.netlify.app/obrigado.html">
+             <button class="solicitar" type="submit">Solicitar tabela</button>
+        </form>    
+    </div>        
         <footer>
             <p>copyright - 2021 - todos os direitos reservados a Nova Casa do Consultor</p>
          </footer>
