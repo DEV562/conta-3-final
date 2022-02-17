@@ -63,6 +63,9 @@ li a:hover{
     align-items: center;
     text-align: center;
 }
+.inicial2 img{
+    max-width: 300px;
+}
 .inicial img{
     width: 80%;
 }
